@@ -1,6 +1,6 @@
 
 
-/* 	稳定性：稳定
+/* 	稳定性：不稳定，大步长的插入可能破坏稳定性
 	距离较远的插入排序*/
 void ShellSort(int *A,int n) {
 	int i, j, incre;
